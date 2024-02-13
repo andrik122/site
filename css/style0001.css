@@ -1,0 +1,181 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+    height: 2500px;
+    font-family: Arial;
+    font-size: 15px;
+    color: #313e47;
+	width: 350px;
+	margin: 0 auto;
+
+}
+html{
+    height: 100%;
+}
+ol, ul {
+    list-style: none;
+}
+h2 {
+    font-size: 36px;
+    line-height: 44px;
+    color: #313e47;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+a{
+    color: #69B9FF;
+}
+a:hover{
+    color: #e14740;
+}
+.wrap_block_success{
+
+    background: url(../images/mob.jpg);
+     background-repeat: no-repeat;
+	width: 350px;
+    height: 2500px;
+    margin: 0 auto;
+
+}
+.order_number{
+    text-align:center;
+    font-family: Arial;
+    font-size:30px;
+    text-transform:uppercase;
+    color:#424242;
+    line-height:38px;
+    margin:25px 0 25px 0;
+}
+.order_number span{
+    color: #e14740;
+}
+.url_more_info{
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    margin: 20px 0px;
+}
+.url_more_info:hover{
+    color: #e14740;
+}
+.block_success{
+    max-width: 960px;
+    padding:70px 30px 0 30px;
+    margin: 0px auto;
+}
+.success {
+    text-align: center;
+}
+.form_block{
+    max-width: 850px;
+	margin: 0 auto;
+	padding-top: 47px;
+}
+.form1_block{
+    width: 340px;
+	float: left;
+}
+.form2_block{
+    width: 340px;
+	float: right;
+}
+.form3_block{
+    width: 340px;
+	margin: 0 auto;
+}
+.order_section{
+padding: 9px 0 2px;
+	width: 233px;
+	border-radius: 25px;
+}
+.order_section .input{
+    width: 223px;
+    height: 38px;
+	border: 3px solid #dfdfdf;
+}
+.order_section .button{
+width: 192px;
+    height: 36px;
+	line-height: 1px;
+}
+
+.block_1{
+	position: absolute;
+	margin-top: 629px;
+	margin-left: 13%;
+	font-size: 25px;
+
+	}
+
+@media (max-width:750px){
+    h2 {
+        font-size: 24px;
+    }
+    .order_number {
+
+        font-size: 20px;
+
+    }
+
+
+	.block_1{
+	padding-bottom: 192px;
+    margin-left: -13px;
+	}
+
+
+}
+.policeconf {
+    background: url(http://subtlepatterns.com/patterns/bedge_grunge.png);
+}
+
+
+
+@media screen and (max-width: 639px){
+
+	.form1_block{
+    margin: 0 auto;
+    float: none;
+}
+.form2_block{
+    margin: 0 auto;
+    float: none;
+}
+.form3_block{
+    margin: 0 auto;
+    float: none;
+}
+
+
+	.block_1{
+	padding-bottom: 192px;
+    margin-left: -13px;
+	}
+
+
+    }
